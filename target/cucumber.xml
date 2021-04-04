@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.422">
-<testcase classname="Test Star Wars" name="Validating positive and negative scenarios" time="4.867">
-<system-out><![CDATA[Given we are sending url to the server and get the response.................passed
-]]></system-out>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.068">
+<testcase classname="Test Star Wars" name="Validating positive and negative scenarios for vehicles" time="1.863">
+<failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[Given we sending url for vehicles...........................................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<200> but was:<404>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at Steps.we_sending_url_for_vehicles(Steps.java:43)
+	at ✽.we sending url for vehicles(file:///C:/Users/gbeja/OneDrive/Desktop/Java/ArraysProject%20(1)/Cucumber/APIone/src/test/resources/api.feature:15)
+]]></failure>
 </testcase>
 </testsuite>

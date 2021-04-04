@@ -1,4 +1,5 @@
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
@@ -19,4 +20,27 @@ public class Steps{
                 PropertiesReader.getProperty("filmPath","pos"));
         Assert.assertEquals(200, response.getStatusLine().getStatusCode());
     }
+
+    @Given("we sending url for peoples")
+    public void we_sending_url_for_peoples() throws IOException, URISyntaxException {
+        HttpResponse response = Utils.getResponse(PropertiesReader.getProperty("setScheme","pos"),
+                PropertiesReader.getProperty("setHost","pos"),
+                PropertiesReader.getProperty("peoplePath","pos"));
+        Assert.assertEquals(200, response.getStatusLine().getStatusCode());
+    }
+    @Given("we sending url LukeSkywalker")
+    public void we_sending_url_luke_skywalker() throws IOException, URISyntaxException {
+        HttpResponse response = Utils.getResponse(PropertiesReader.getProperty("setScheme","pos"),
+                PropertiesReader.getProperty("setHost","pos"),
+                PropertiesReader.getProperty("lukeSPath","pos"));
+        Assert.assertEquals(200, response.getStatusLine().getStatusCode());
+    }
+    @Given("we sending url for vehicles")
+    public void we_sending_url_for_vehicles() throws IOException, URISyntaxException {
+        HttpResponse response = Utils.getResponse(PropertiesReader.getProperty("setScheme","pos"),
+                PropertiesReader.getProperty("setHost","pos"),
+                PropertiesReader.getProperty("vehiclesPath","pos"));
+        Assert.assertEquals(200, response.getStatusLine().getStatusCode());
+    }
+
 }
