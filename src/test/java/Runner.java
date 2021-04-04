@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/api.feature",
         dryRun = false,
-        tags= "@vehicles"
+        tags= "@vehicles or @LukeS or @films or @people"
         //"@LukeS " , "@films", "@people "}
 
 )

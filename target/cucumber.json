@@ -3,7 +3,63 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-04T19:38:04.607Z",
+        "start_timestamp": "2021-04-04T19:55:58.678Z",
+        "line": 6,
+        "name": "Validating positive and negative scenarios for peoples",
+        "description": "",
+        "id": "test-star-wars;validating-positive-and-negative-scenarios-for-peoples",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3959000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we sending url for peoples",
+            "match": {
+              "location": "Steps.we_sending_url_for_peoples()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@people"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-04T19:56:02.939Z",
+        "line": 10,
+        "name": "Validating positive and negative scenarios for LukeS",
+        "description": "",
+        "id": "test-star-wars;validating-positive-and-negative-scenarios-for-lukes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1215000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "we sending url LukeSkywalker",
+            "match": {
+              "location": "Steps.we_sending_url_luke_skywalker()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LukeS"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-04T19:56:04.166Z",
         "line": 14,
         "name": "Validating positive and negative scenarios for vehicles",
         "description": "",
@@ -14,7 +70,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat Steps.we_sending_url_for_vehicles(Steps.java:43)\r\n\tat ✽.we sending url for vehicles(file:///C:/Users/gbeja/OneDrive/Desktop/Java/ArraysProject%20(1)/Cucumber/APIone/src/test/resources/api.feature:15)\r\n",
-              "duration": 1775000000,
+              "duration": 616000000,
               "status": "failed"
             },
             "line": 15,

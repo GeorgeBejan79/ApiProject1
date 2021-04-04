@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.068">
-<testcase classname="Test Star Wars" name="Validating positive and negative scenarios for vehicles" time="1.863">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="6.736">
+<testcase classname="Test Star Wars" name="Validating positive and negative scenarios for peoples" time="4.229">
+<system-out><![CDATA[Given we sending url for peoples............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Star Wars" name="Validating positive and negative scenarios for LukeS" time="1.221">
+<system-out><![CDATA[Given we sending url LukeSkywalker..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Star Wars" name="Validating positive and negative scenarios for vehicles" time="0.627">
 <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[Given we sending url for vehicles...........................................failed
 
 StackTrace:
