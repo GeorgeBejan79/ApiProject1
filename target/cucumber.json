@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-04T18:04:02.046Z",
+        "line": 3,
+        "name": "Validating positive and negative scenarios",
+        "description": "",
+        "id": "test-star-wars;validating-positive-and-negative-scenarios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4588000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we are sending url to the server and get the response",
+            "match": {
+              "location": "Steps.we_are_sending_url_to_the_server_and_get_the_response()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "Test Star Wars",
+    "description": "",
+    "id": "test-star-wars",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api.feature",
+    "tags": []
+  }
+]

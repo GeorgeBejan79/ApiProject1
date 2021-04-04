@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.422">
+<testcase classname="Test Star Wars" name="Validating positive and negative scenarios" time="4.867">
+<system-out><![CDATA[Given we are sending url to the server and get the response.................passed
+]]></system-out>
+</testcase>
+</testsuite>
