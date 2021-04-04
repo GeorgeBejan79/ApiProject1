@@ -9,7 +9,9 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/api.feature",
         dryRun = false,
-        tags= "@outline"
+        tags= "@vehicles"
+        //"@LukeS " , "@films", "@people "}
+
 )
 
 public class Runner {

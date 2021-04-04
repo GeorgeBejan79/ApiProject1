@@ -3,30 +3,31 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-04T18:04:02.046Z",
-        "line": 3,
-        "name": "Validating positive and negative scenarios",
+        "start_timestamp": "2021-04-04T19:38:04.607Z",
+        "line": 14,
+        "name": "Validating positive and negative scenarios for vehicles",
         "description": "",
-        "id": "test-star-wars;validating-positive-and-negative-scenarios",
+        "id": "test-star-wars;validating-positive-and-negative-scenarios-for-vehicles",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4588000000,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat Steps.we_sending_url_for_vehicles(Steps.java:43)\r\n\tat ✽.we sending url for vehicles(file:///C:/Users/gbeja/OneDrive/Desktop/Java/ArraysProject%20(1)/Cucumber/APIone/src/test/resources/api.feature:15)\r\n",
+              "duration": 1775000000,
+              "status": "failed"
             },
-            "line": 5,
-            "name": "we are sending url to the server and get the response",
+            "line": 15,
+            "name": "we sending url for vehicles",
             "match": {
-              "location": "Steps.we_are_sending_url_to_the_server_and_get_the_response()"
+              "location": "Steps.we_sending_url_for_vehicles()"
             },
             "keyword": "Given "
           }
         ],
         "tags": [
           {
-            "name": "@outline"
+            "name": "@vehicles"
           }
         ]
       }

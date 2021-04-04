@@ -11,15 +11,12 @@ public class PropertiesReader {
         }else{
             path="src/test/info.properties/Infonegative.properties";
         }
-
         try{
             FileInputStream inputStream= new FileInputStream(path);
             properties =new Properties();
             properties.load(inputStream);
-
         }catch(Exception e) {
         e.printStackTrace();}
-
 
         return properties.getProperty(key);
     }
